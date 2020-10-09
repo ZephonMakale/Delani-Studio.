@@ -29,7 +29,7 @@ h3,
 }
 /* Services Page Styling */
 .services {
-  background-image: url("/Images/s_image.jpg");
+  background-image: url("../Images/s_image.jpg");
   color: white;
   background-position: center;
   background-size: cover;
