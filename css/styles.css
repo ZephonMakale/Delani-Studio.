@@ -19,3 +19,21 @@ h3,
 .amazing {
   color: white;
 }
+/* About Page Styling */
+.about-us, .services{
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  line-height: 30px;
+}
+
+.services{
+  background-image: url("/Images/s_image.jpg");
+  color: white;
+  background-position: center;
+  background-size: cover;
+  height: 48vh;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  line-height: 30px;
+}
