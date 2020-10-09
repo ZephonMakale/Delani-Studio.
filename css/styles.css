@@ -20,14 +20,15 @@ h3,
   color: white;
 }
 /* About Page Styling */
-.about-us, .services{
+.about-us,
+.services {
   margin: auto;
   text-align: center;
   padding: 20px;
   line-height: 30px;
 }
-
-.services{
+/* Services Page Styling */
+.services {
   background-image: url("/Images/s_image.jpg");
   color: white;
   background-position: center;
@@ -36,4 +37,11 @@ h3,
   background-repeat: no-repeat;
   padding-top: 100px;
   line-height: 30px;
+}
+/* What we do Page Styling */
+.what-we-do {
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  line-height: 20px;
 }
