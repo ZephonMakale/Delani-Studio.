@@ -19,3 +19,11 @@ h3,
 .amazing {
   color: white;
 }
+/* About Page Styling */
+.about-us{
+  /* justify-content: center;
+  text-align: center; */
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
