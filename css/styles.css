@@ -1,6 +1,6 @@
 /* Home Page Styling */
 .home {
-  background-image: url("../Images/backgrounds/h_img.jpg");
+  background-image: url("/Images/backgrounds/h_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
