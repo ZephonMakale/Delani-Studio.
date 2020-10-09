@@ -1,0 +1,21 @@
+/* Home Page Styling */
+.home {
+  background-image: url("/Images/backgrounds/h_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 200px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+.welcome,
+h3,
+.amazing {
+  color: white;
+}
