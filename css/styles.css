@@ -40,8 +40,28 @@ h3,
 }
 /* What we do Page Styling */
 .what-we-do {
-  margin: auto;
+  display: flex;
   text-align: center;
-  padding: 30px;
-  line-height: 20px;
+  justify-content: center;
+  justify-content: space-around;
+  
+  
+}
+.title{
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.info-1, .info-2, .info-3{
+  display: none;
+  
+}
+#img-1, #img-2, #img-3{
+  cursor: pointer;
+}
+
+/* Portfolio Page Styling */
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
 }
