@@ -65,3 +65,33 @@ h3,
   display: grid;
   grid-template-columns: 1fr;
 }
+.portfolio-items-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* justify-content: space-around; */
+}
+.portfolio-item-wrapper{
+  position: relative;
+}
+.portfolio-img-bg{
+  height: 40vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-text-wrapper{
+  position: absolute;
+  top:0;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100%;
+}
+.subtitle{
+  font-weight: 600;
+}
