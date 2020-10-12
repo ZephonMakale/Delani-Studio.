@@ -74,7 +74,7 @@ h3,
   position: relative;
 }
 .portfolio-img-bg{
-  height: 40vh;
+  height: auto;
   width: 100%;
   background-position: center;
   background-size: cover;
