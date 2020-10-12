@@ -42,7 +42,6 @@ h3,
 .what-we-do {
   justify-content: center;
   text-align: center;
-  
 }
 .title {
   justify-content: center;
@@ -103,38 +102,44 @@ h3,
 }
 .img-darken {
   transition: 1s;
-  /* filter: brightness(10%); */
   filter: opacity(0.2);
 }
 
 /* Form Page Styling */
 
-.contact-us{
+.contact-us {
   justify-content: center;
   text-align: center;
 }
-
-.form-row{
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.message-area{
-
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-
-display: flex;
-
-}
-.form-control-is-inv, .form-control{
+::placeholder {
   color: white;
 }
-#validationTextarea, #exampleFormControlInput1, #validationCustom01{
+button{
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.form-row {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.message-area {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  display: flex;
+}
+.form-control-is-inv,
+.form-control {
+  color: white;
+}
+#validationTextarea,
+#exampleFormControlInput1,
+#validationCustom01 {
   background: transparent;
-  
 }
 
 #mc_embed_signup {
@@ -143,7 +148,7 @@ display: flex;
   font: 14px Helvetica, Arial, sans-serif;
 }
 
-#mc_embed_signup{
+#mc_embed_signup {
   background-image: url("/Images/c_image.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -151,9 +156,9 @@ display: flex;
 }
 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
      We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-     
+
 /* Social Page Styling */
-.socials{
+.socials {
   display: flex;
   /* margin: auto; */
   justify-content: space-evenly;
@@ -161,16 +166,12 @@ display: flex;
   align-items: center;
   padding-left: 200px;
   padding-right: 200px;
-  
 }
 
 /* Footer Page Styling */
-.footer{
+.footer {
   justify-content: center;
   text-align: center;
   align-items: center;
-}
- ::placeholder{
-  color: white;
 }
 
