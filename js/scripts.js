@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("#img-1").click(function () {
-    $(".info-1").toggle(slow);
-    $("#img-1").toggle(slow);
+    $(".info-1").toggle();
+    $("#img-1").toggle();
   });
 });
 
@@ -46,18 +46,16 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    let portfolioItems = document.querySelectorAll('.portfolio-items-wrapper')
+  let portfolioItems = document.querySelectorAll(".portfolio-item-wrapper");
 
-    portfolioItems.forEach(portfolioItem => {
-        portfolioItem.addEventListener('mouseOver', () => {
-            portfolioItem.childNodes[1].classList.add('img-darken');
-        })
-    })
+  portfolioItems.forEach((portfolioItem) => {
+    portfolioItem.addEventListener("mouseover", () => {
+      portfolioItem.childNodes[1].classList.add("img-darken");
+    });
 
-        portfolioItem.addEventListener('mouseout', () => {
-            portfolioItem.childNodes[1].classList.remove('img-darken');
-        })
-
-    
-})
+    portfolioItem.addEventListener("mouseout", () => {
+      portfolioItem.childNodes[1].classList.remove("img-darken");
+    });
+  });
+});
 

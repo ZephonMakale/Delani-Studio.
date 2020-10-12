@@ -100,9 +100,11 @@ h3,
 }
 .img-text-wrapper:hover .subtitle{
   font-weight: 600;
-  color: black;
+  color: aqua;
 }
 .img-darken{
   transition: 1s;
-  filter: brightness(10%);
+  /* filter: brightness(10%); */
+  filter: opacity(0.6);
 }
+
