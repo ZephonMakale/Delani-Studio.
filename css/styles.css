@@ -131,4 +131,11 @@ h3,
 /* Social Page Styling */
 .socials{
   display: flex;
+  /* margin: auto; */
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  
 }
