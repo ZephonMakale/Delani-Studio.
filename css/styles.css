@@ -44,45 +44,45 @@ h3,
   text-align: center;
   justify-content: center;
   justify-content: space-around;
-  
-  
 }
-.title{
+.title {
   justify-content: center;
   text-align: center;
   padding: 20px;
 }
-.info-1, .info-2, .info-3{
+.info-1,
+.info-2,
+.info-3 {
   display: none;
-  
 }
-#img-1, #img-2, #img-3{
+#img-1,
+#img-2,
+#img-3 {
   cursor: pointer;
 }
 
 /* Portfolio Page Styling */
-.container{
+.container {
   display: grid;
   grid-template-columns: 1fr;
 }
-.portfolio-items-wrapper{
+.portfolio-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  
 }
-.portfolio-item-wrapper{
+.portfolio-item-wrapper {
   position: relative;
 }
-.portfolio-img-bg{
-  height: auto;
+.portfolio-img-bg {
+  height: 40vh;
   width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.img-text-wrapper{
+.img-text-wrapper {
   position: absolute;
-  top:0;
+  top: 0;
   justify-content: center;
   display: flex;
   text-align: center;
@@ -92,19 +92,28 @@ h3,
   padding-right: 100px;
   height: 100%;
 }
-.img-text-wrapper .subtitle{
+.img-text-wrapper .subtitle {
   transition: 1s;
   color: transparent;
   cursor: pointer;
   font-weight: 600;
 }
-.img-text-wrapper:hover .subtitle{
+.img-text-wrapper:hover .subtitle {
   font-weight: 600;
   color: black;
 }
-.img-darken{
+.img-darken {
   transition: 1s;
   /* filter: brightness(10%); */
   filter: opacity(0.2);
 }
 
+/* Form Page Styling */
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
