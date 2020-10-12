@@ -127,7 +127,8 @@ h3,
   background-size: cover;
 }
 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+     
 /* Social Page Styling */
 .socials{
   display: flex;
@@ -139,3 +140,10 @@ h3,
   padding-right: 200px;
   
 }
+/* Footer Page Styling */
+.footer{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
