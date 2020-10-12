@@ -114,6 +114,30 @@ h3,
   justify-content: center;
   text-align: center;
 }
+
+.form-row{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.message-area{
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+display: flex;
+
+}
+.form-control-is-inv{
+  color: white;
+}
+#validationTextarea, #exampleFormControlInput1, #validationCustom01{
+  background: transparent;
+  
+}
+
 #mc_embed_signup {
   background: transparent;
   clear: left;
@@ -140,6 +164,7 @@ h3,
   padding-right: 200px;
   
 }
+
 /* Footer Page Styling */
 .footer{
   justify-content: center;
