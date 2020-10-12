@@ -58,3 +58,14 @@ $(document).ready(function () {
     });
   });
 });
+
+function message() {
+  let validationCustom01 = document.getElementById("validationCustom01").value;
+  alert(validationCustom01  + " " + "Thank you for reaching out to us. ");
+};
+
+
+// function message(){
+// let validationCustom01 = document.getElementById("validationCustom01").value;
+// alert("validatiomCustom01 " + " " "Thank you for reaching out to us. ");
+// };
