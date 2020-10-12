@@ -40,10 +40,9 @@ h3,
 }
 /* What we do Page Styling */
 .what-we-do {
-  display: flex;
-  text-align: center;
   justify-content: center;
-  justify-content: space-around;
+  text-align: center;
+  
 }
 .title {
   justify-content: center;
@@ -130,7 +129,7 @@ h3,
 display: flex;
 
 }
-.form-control-is-inv{
+.form-control-is-inv, .form-control{
   color: white;
 }
 #validationTextarea, #exampleFormControlInput1, #validationCustom01{
@@ -170,5 +169,8 @@ display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+ ::placeholder{
+  color: white;
 }
 
