@@ -150,7 +150,7 @@ button{
 }
 
 #mc_embed_signup {
-  background-image: url("/Images/c_image.jpg");
+  background-image: url("../Images/c_image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
