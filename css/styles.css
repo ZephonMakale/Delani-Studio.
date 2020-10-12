@@ -3,7 +3,7 @@
   background-image: url("../Images/h_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: auto;
   background-position: center;
   justify-content: center;
   text-align: center;
@@ -33,7 +33,7 @@ h3,
   color: white;
   background-position: center;
   background-size: cover;
-  height: 48vh;
+  height: auto;
   background-repeat: no-repeat;
   padding-top: 100px;
   line-height: 30px;
@@ -92,6 +92,17 @@ h3,
   padding-right: 100px;
   height: 100%;
 }
-.subtitle{
+.img-text-wrapper .subtitle{
+  transition: 1s;
+  color: transparent;
+  cursor: pointer;
   font-weight: 600;
+}
+.img-text-wrapper:hover .subtitle{
+  font-weight: 600;
+  color: black;
+}
+.img-darken{
+  transition: 1s;
+  filter: brightness(10%);
 }
